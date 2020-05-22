@@ -8,7 +8,7 @@
 [![Code Quality: Javascript](https://img.shields.io/lgtm/grade/javascript/g/Hacker0x01/react-datepicker.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/Hacker0x01/react-datepicker/context:javascript)
 [![Total Alerts](https://img.shields.io/lgtm/alerts/g/Hacker0x01/react-datepicker.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/Hacker0x01/react-datepicker/alerts)
 
-A simple and reusable Datepicker component for React ([Demo](https://reactdatepicker.com/))
+A react 15 compatible versi for picker simple and reusable Datepicker component for React ([Demo](https://reactdatepicker.com/))
 
 ![](https://cloud.githubusercontent.com/assets/1412392/5339491/c40de124-7ee1-11e4-9f07-9276e2545f27.png)
 
@@ -128,7 +128,7 @@ We're always trying to stay compatible with the latest version of React. We can'
 
 Latest compatible versions:
 
-- React 16 or newer:  React-datepicker v2.9.4 and newer
+- React 16 or newer: React-datepicker v2.9.4 and newer
 - React 15.5: React-datepicker v2.9.3
 - React 15.4.1: needs React-datepicker v0.40.0, newer won't work (due to react-onclickoutside dependencies)
 - React 0.14 or newer: All above React-datepicker v0.13.0

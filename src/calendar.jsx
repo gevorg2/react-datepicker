@@ -151,7 +151,7 @@ export default class Calendar extends React.Component {
   constructor(props) {
     super(props);
 
-    this.containerRef = React.createRef();
+    this.containerRef = null;
 
     this.state = {
       date: this.getDateInView(),
@@ -195,7 +195,7 @@ export default class Calendar extends React.Component {
   };
 
   setClickOutsideRef = () => {
-    return this.containerRef.current;
+    return this.containerRef;
   };
 
   handleDropdownFocus = event => {
@@ -720,7 +720,7 @@ export default class Calendar extends React.Component {
   render() {
     const Container = this.props.container || CalendarContainer;
     return (
-      <div ref={this.containerRef}>
+      <div ref={r => (this.containerRef = r)}>
         <Container
           className={classnames("react-datepicker", this.props.className, {
             "react-datepicker--time-only": this.props.showTimeSelectOnly
