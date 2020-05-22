@@ -2,7 +2,7 @@
   "author": "Gevorg Narimanyan",
   "name": "react-15-datepicker",
   "description": "A simple and reusable datepicker component for React",
-  "version": "2.10.2.15",
+  "version": "3.10.2",
   "license": "MIT",
   "homepage": "https://github.com/gevorg2/react-datepicker",
   "main": "dist/index.js",
